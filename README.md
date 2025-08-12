@@ -24,7 +24,7 @@ Example:
 https://example.com
 https://test.com
 
-# Wordlist file (wordlist.txt): Paths to fuzz
+Wordlist file (wordlist.txt): Paths to fuzz
 
 # 6. Run the Script
 python3 dfuzz.py -f urls.txt -w wordlist.txt -i 200,301,302 -r 1 -t 20 --auto-duplicate -o results.txt
